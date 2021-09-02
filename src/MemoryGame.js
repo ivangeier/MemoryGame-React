@@ -45,7 +45,9 @@ export default function MemoryGame() {
         <div>
             <GameBoard onHandleFlip={handleFlip} cards={cards}></GameBoard>
             <GameOver show={gameOver} handleRestart={restart}></GameOver>
-            <p className="codeBy">Code by <a href="">Ivan Geier</a> </p>
+            <p className="codeBy">Code by
+                <a href="https://github.com/ivangeier/MemoryGame-React" target="_blank" rel="noreferrer">Ivan Geier</a>
+            </p>
         </div>
     )
 }
